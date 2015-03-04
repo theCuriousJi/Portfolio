@@ -108,7 +108,7 @@ h1, h2, h3, h4, h5, h6 {
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 650px;
+	min-height: 875px;
 	width: 100%;
 
     -webkit-background-size: 100%;
@@ -122,12 +122,32 @@ h1, h2, h3, h4, h5, h6 {
     background-size: cover;
 }
 
+#name{
+  text-align:center
+}
+.about-heading{
+  padding-bottom: 30px
+}
+
+.section-heading{
+  font-size: 36px
+}
+
+.about-text{
+  font-size: 18px
+}
+
+#about{
+  padding-top: 30px;
+  padding-bottom: 30px
+}
+
 h5{
   font-weight: normal
 }
 
 #headerwrap h1 {
-	color:white;
+	color:black;
 	padding-top: 10px;
 	padding-bottom: 20px;
 	letter-spacing: 4px;
@@ -137,7 +157,7 @@ h5{
 
 #headerwrap h4 {
 	font-weight: 400;
-	color: white
+	color: black;
 }
 
 #works{
@@ -208,7 +228,7 @@ h5{
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 650px;
+	min-height: 800px;
 	width: 100%;
 
     -webkit-background-size: 100%;
@@ -257,7 +277,10 @@ h5{
     background-size: cover;
 }
 
-
+.img-circle{
+  border-radius: 50%;
+  max-height:50%
+}
 
 
 /* Gallery */
